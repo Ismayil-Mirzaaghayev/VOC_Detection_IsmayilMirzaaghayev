@@ -222,6 +222,8 @@ The model was trained on the labeled PASCAL VOC dataset using the standard Ultra
 
 5. **Seed for Reproducibility**: Setting seed to 42 ensures that results can be replicated exactly, which is essential for academic and research purposes.
 
+6. **Early Stopping (Patience = 15)**: Early stopping monitors validation metrics (mAP@50) during training and halts if no improvement occurs for 15 consecutive epochs. This approach prevents overfitting by stopping training once the model plateaus, avoiding wasted computation and reducing memory usage. A patience of 15 epochs provides a balanced trade-off-lenient enough to allow natural fluctuations in validation metrics but strict enough to prevent excessive training. This is particularly important when training on limited data (100 images), where overfitting risk is elevated. Early stopping helps the model generalize better to unseen data by capturing the optimal point in the training trajectory.
+
 ---
 
 ## 5. Results
