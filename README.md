@@ -65,7 +65,7 @@ To clone and run this project on your local computer, follow these step-by-step 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/VOC_Detection_IsmayilMirzaaghayev.git
+git clone https://github.com/Ismayil-Mirzaaghayev/VOC_Detection_IsmayilMirzaaghayev.git
 cd VOC_Detection_IsmayilMirzaaghayev
 ```
 
